@@ -9,8 +9,8 @@ def join_ingredients(src)
   join_ingredients = []
   
   index = 0
-  while index < join_ingredients.length do
-    inner = join_ingredients[index]
+  while index < src.length do
+    inner = src[index]
     join_ingredients << "I love #{inner[0]} and #{inner[1]} on my pizza"
     index += 1
   end
